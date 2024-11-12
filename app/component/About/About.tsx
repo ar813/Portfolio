@@ -2,7 +2,6 @@
 
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
-// @ts-ignore
 import AOS from 'aos';
 
 

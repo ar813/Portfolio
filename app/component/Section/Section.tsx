@@ -2,7 +2,6 @@
 
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
-// @ts-ignore
 import AOS from 'aos';
 
 import Image from "next/image"
@@ -12,7 +11,7 @@ import Microphone from "../../../public/images/Microphone.png"
 import gameDevelopment from "../../../public/images/game-development.png"
 import Photographer from "../../../public/images/Photographer.png"
 
-const section = () => {
+const Section = () => {
 
     useEffect(() => {
         AOS.init({
@@ -71,4 +70,4 @@ const section = () => {
     )
 }
 
-export default section
+export default Section
