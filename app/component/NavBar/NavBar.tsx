@@ -16,8 +16,8 @@ const NavBar = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 1000,
-            offset: 200,
+            duration: 700,
+            offset: 100,
         });
     }, []);
 
